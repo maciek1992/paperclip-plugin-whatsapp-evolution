@@ -1,0 +1,64 @@
+{
+ "event": "messages.upsert",
+ "instance": "wa-main",
+ "data": {
+  "key": {
+   "remoteJid": "120363000000000001@g.us",
+   "fromMe": false,
+   "id": "3BAAAAAAAAAAAAAAAA01",
+   "participant": "11111111111111@lid",
+   "participantAlt": "48500100200@s.whatsapp.net",
+   "addressingMode": "lid"
+  },
+  "pushName": "Jan",
+  "status": "DELIVERY_ACK",
+  "message": {
+   "conversation": "test 1",
+   "messageContextInfo": {
+    "threadId": [],
+    "messageSecret": {
+     "0": 83,
+     "1": 210,
+     "2": 244,
+     "3": 157,
+     "4": 76,
+     "5": 53,
+     "6": 153,
+     "7": 101,
+     "8": 46,
+     "9": 211,
+     "10": 145,
+     "11": 191,
+     "12": 28,
+     "13": 5,
+     "14": 215,
+     "15": 148,
+     "16": 184,
+     "17": 27,
+     "18": 28,
+     "19": 38,
+     "20": 190,
+     "21": 175,
+     "22": 194,
+     "23": 160,
+     "24": 71,
+     "25": 45,
+     "26": 189,
+     "27": 171,
+     "28": 11,
+     "29": 160,
+     "30": 251,
+     "31": 136
+    }
+   }
+  },
+  "messageType": "conversation",
+  "messageTimestamp": 1793023452,
+  "instanceId": "03df8a56-2467-456f-87c3-9c245d1366d3",
+  "source": "unknown"
+ },
+ "destination": "http://paperclip.example:3100/api/plugins/local.whatsapp-evolution/webhooks/evolution",
+ "date_time": "2026-01-01T12:00:00.000Z",
+ "sender": "48500999888@s.whatsapp.net",
+ "server_url": "http://evolution.example:8080"
+}

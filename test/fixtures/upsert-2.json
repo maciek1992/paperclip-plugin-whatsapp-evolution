@@ -1,0 +1,75 @@
+{
+ "event": "messages.upsert",
+ "instance": "wa-main",
+ "data": {
+  "key": {
+   "remoteJid": "120363000000000001@g.us",
+   "fromMe": false,
+   "id": "3BAAAAAAAAAAAAAAAA02",
+   "participant": "11111111111111@lid",
+   "participantAlt": "48500100200@s.whatsapp.net",
+   "addressingMode": "lid"
+  },
+  "pushName": "Jan",
+  "status": "DELIVERY_ACK",
+  "message": {
+   "messageContextInfo": {
+    "threadId": [],
+    "messageSecret": {
+     "0": 49,
+     "1": 28,
+     "2": 221,
+     "3": 106,
+     "4": 97,
+     "5": 114,
+     "6": 9,
+     "7": 69,
+     "8": 38,
+     "9": 61,
+     "10": 99,
+     "11": 255,
+     "12": 168,
+     "13": 253,
+     "14": 8,
+     "15": 118,
+     "16": 219,
+     "17": 228,
+     "18": 96,
+     "19": 69,
+     "20": 12,
+     "21": 248,
+     "22": 253,
+     "23": 180,
+     "24": 87,
+     "25": 232,
+     "26": 185,
+     "27": 82,
+     "28": 164,
+     "29": 154,
+     "30": 74,
+     "31": 156
+    }
+   },
+   "conversation": "test 2 odpowiedź"
+  },
+  "contextInfo": {
+   "mentionedJid": [],
+   "groupMentions": [],
+   "statusAttributions": [],
+   "stanzaId": "3EB0AAAAAAAAAAAAAAAA01",
+   "participant": "22222222222222@lid",
+   "quotedMessage": {
+    "conversation": "[ACME-12] Artykuł o CRM gotowy. Publikuję dziś o 18:00?"
+   },
+   "quotedType": 0
+  },
+  "messageType": "conversation",
+  "messageTimestamp": 1793023457,
+  "instanceId": "03df8a56-2467-456f-87c3-9c245d1366d3",
+  "source": "unknown"
+ },
+ "destination": "http://paperclip.example:3100/api/plugins/local.whatsapp-evolution/webhooks/evolution",
+ "date_time": "2026-01-01T12:00:00.000Z",
+ "sender": "48500999888@s.whatsapp.net",
+ "server_url": "http://evolution.example:8080"
+}
